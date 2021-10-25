@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#BeniW Port Scan
 
 import argparse
 import socket
@@ -46,9 +47,9 @@ def Conectar():
 		s.settimeout(2)
 		c = s.connect_ex((str(args.host),int(args.port)))
 		if c == 0:
-			print ("\nPort ",args.port," Open:")
+			print ("\nPort ",args.port," Open>")
 		else:
-				print ("\nPort ",args.port," Closed:")
+				print ("\nPort ",args.port," Closed>")
 	else:
 		quit()
 		
