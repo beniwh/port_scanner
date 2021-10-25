@@ -3,6 +3,6 @@
 
 ##
 
-## Example of use
+### Example of use
 
 - python bwsp.py -s www.google.com -p 80
